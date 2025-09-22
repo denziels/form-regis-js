@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Registrasi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Form Registrasi</h2>
+    <form id="regForm">
+      <label for="nama">Nama Mahasiswa</label>
+      <input type="text" id="nama" autocomplete="off">
+      <div class="suggestions" id="suggestions"></div>
+
+      <label for="nim">NIM</label>
+      <input type="text" id="nim">
+
+      <label for="matkul">Mata Kuliah</label>
+      <select id="matkul">
+        <option value="">-- Pilih Mata Kuliah --</option>
+        <option>Pemrograman Web</option>
+        <option>Basis Data</option>
+        <option>Kecerdasan Buatan</option>
+        <option>Struktur Data</option>
+      </select>
+
+      <label for="dosen">Dosen</label>
+      <select id="dosen">
+        <option value="">-- Pilih Dosen --</option>
+        <option>Dr. Budi Santoso</option>
+        <option>Dr. Andi Wijaya</option>
+        <option>Dr. Rina Agustina</option>
+        <option>Dr. Siti Aminah</option>
+      </select>
+
+      <button type="submit">Daftar</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

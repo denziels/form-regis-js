@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    width: 350px;
+  }
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .suggestions {
+    border: 1px solid #ccc;
+    max-height: 120px;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    width: calc(100% - 60px);
+  }
+  .suggestions div {
+    padding: 8px;
+    cursor: pointer;
+  }
+  .suggestions div:hover {
+    background: #f0f0f0;
+  }
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
