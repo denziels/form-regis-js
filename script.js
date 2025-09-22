@@ -1,30 +1,19 @@
 const daftarNama = [
-  "Ariana Grande", "Adele",
-  "Billie Eilish", "Bruno Mars", 
+  "Ariana Grande", "Billie Eilish",
   "Charlie Puth", "Conan Gray", 
-  "Drake", "Dua Lipa", "Doja Cat", 
-  "Ed Sheeran", "Elton John", "Eminem", 
-  "Frank Ocean", "Fergie", "Flo Rida", 
-  "Gwen Stefani", "Green Day", "George Ezra", 
-  "Harry Styles", "Halsey", "Hilary Duff", 
-  "Imagine Dragons", "Iggy Azalea", "Ice Cube", 
-  "Jennifer Lopez", "Justin Bieber", "Jay-Z", 
-  "Katy Perry", "Kanye West", "Kelly Clarkson", 
-  "Lady Gaga", "Lana Del Rey", "Lil Nas X", 
-  "Madonna", "Mariah Carey", "Miley Cyrus", 
-  "Nicki Minaj", "Ne-Yo", "Norah Jones", 
-  "Olivia Rodrigo", "One Direction", "Ozzy Osbourne", 
-  "Post Malone", "Pharrell Williams", "Pink", 
-  "Queen", 
-  "Rihanna", "Robbie Williams", "Rosé", 
-  "Shakira", "Sam Smith", "Selena Gomez", 
-  "Taylor Swift", "The Weeknd", "Tinashe", 
-  "Usher",
-  "Victoria Beckham", "Vanessa Hudgens", 
+  "Dua Lipa", "Doja Cat", 
+  "Ed Sheeran", "Eminem", 
+  "Frank Ocean",
+  "Green Day", "Harry Styles",
+  "Imagine Dragons", "Justin Bieber", 
+  "Katy Perry", "Lana Del Rey", "Lil Nas X", 
+  "Miley Cyrus", "Nicki Minaj", "Olivia Rodrigo",
+  "Post Malone", "Queen", 
+  "Rihanna", "Selena Gomez", "The Weeknd",
+  "Usher", "Victoria Beckham"
   "Whitney Houston", "Will Smith",
-  "Xzibit", 
-  "Yiruma", "Young Thug", 
-  "Zayn Malik", "Zedd", "Zendaya"
+  "Xzibit", "Yiruma", "Young Thug", 
+  "Zayn Malik", "Zendaya"
 ];
   
 const namaInput = document.getElementById("nama");
